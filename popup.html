@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RatedOnly</title>
+  <script async type="text/javascript" src="popup.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <style>
+    .form-switch {
+      padding-left: 0;
+    }
+
+    .form-check .form-check-input {
+      float: right;
+    }
+
+    div {
+      text-align: left;
+    }
+  </style>
+</head>
+
+<body>
+  <div style="width: 300px; height: 75px; text-align: center; margin: 20px;">
+    <h5>
+      Filter projects on
+      <small class="text-primary">freelancer.com</small>
+    </h5>
+    <div style="width: 250px; margin: auto;">
+      <div class="form-check form-switch">
+        <label class="form-check-label" for="flexSwitchCheckChecked">Rated</label>
+        <input class="form-check-input" type="checkbox" role="switch" id="rated-switch" value="1" checked>
+      </div>
+      <div class="form-check form-switch">
+        <label class="form-check-label" for="flexSwitchCheckChecked">Unrated</label>
+        <input class="form-check-input" type="checkbox" role="switch" id="unrated-switch" value="1" checked>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
